@@ -1,4 +1,4 @@
-const btn = document.createElement('button')
+const btn = document.createElement('button');
 document.body.append(btn);
 btn.onclick = async () => {
     const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
